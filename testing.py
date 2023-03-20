@@ -15,4 +15,4 @@ Point = namedtuple('Point', 'x y')
 
 data.append(Point(number, number2)
 
-st.altair_chart(alt.Chart(pd.DataFrame(data), height = 500, width = 500)
+st.line_chart(number, number2)
